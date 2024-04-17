@@ -1,0 +1,11 @@
+{
+  "name": "namur-v101-mit-tyl-20418-namur3",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "parcel-bundler": "^1.6.1",
+    "date-time-primitive": "1.0.0"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}

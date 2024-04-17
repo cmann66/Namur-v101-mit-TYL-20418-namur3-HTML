@@ -1,0 +1,346 @@
+.home-container {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url("public/background_plant.png");
+}
+.home-container1 {
+  display: grid;
+  grid-row-gap: 40px;
+  grid-column-gap: 20px;
+  grid-template-rows: 100px 200px 350px 50px 50px 400px;
+  grid-template-columns: 15% 35% 35% 15%;
+}
+.home-container-3 {
+  display: flex;
+  z-index: 100;
+  grid-column: 3/4;
+  padding-top: 10px;
+  justify-content: flex-end;
+}
+.home-image {
+  width: 200px;
+  object-fit: contain;
+}
+.home-link {
+  display: contents;
+}
+.home-image1 {
+  width: 200px;
+  object-fit: contain;
+  text-decoration: none;
+}
+.home-container-5 {
+  display: flex;
+  z-index: 100;
+  align-items: center;
+  grid-column: 2/4;
+  flex-direction: column;
+}
+.home-talk-to-me {
+  color: rgb(255, 255, 255);
+  grid-row: 2/3;
+  font-size: 30px;
+  font-family: "Arial";
+  grid-column: 2/3;
+}
+.home-frage {
+  width: 100%;
+  height: 100px;
+  z-index: 100;
+  position: relative;
+  font-size: 14pt;
+  text-align: center;
+  font-family: Arial;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.home-container-8 {
+  display: flex;
+  z-index: 100;
+  grid-row: 3/5;
+  grid-column: 2/3;
+  flex-direction: column;
+}
+.home-antwort {
+  color: rgb(255, 255, 255);
+  overflow-y: scroll;
+  font-family: "Arial";
+}
+.home-container-9 {
+  display: flex;
+  z-index: 100;
+  grid-row: 3/4;
+  grid-column: 3/4;
+  flex-direction: row;
+}
+.home-text03 {
+  width: 100%;
+  font-family: "Arial";
+}
+.home-text04 {
+  font-family: "Arial";
+}
+.home-container-12 {
+  width: 70%;
+  display: flex;
+  z-index: 100;
+  grid-row: 4/5;
+  align-items: flex-start;
+  grid-column: 2/4;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.home-quellen {
+  z-index: 1000;
+  font-size: 10pt;
+  margin-top: 1%;
+  transition: 0.3s;
+  font-family: "Arial";
+  margin-left: 2%;
+  border-color: #e51e2e;
+}
+.home-quellen:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: #e51e2e;
+}
+.home-container-13 {
+  z-index: 100;
+  grid-row: 5/6;
+  grid-column: 2/4;
+}
+.home-container2 {
+  width: 70%;
+  display: flex;
+  z-index: 100;
+  grid-row: 5/6;
+  align-items: flex-start;
+  grid-column: 2/4;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.home-link1 {
+  display: contents;
+}
+.home-icon {
+  fill: var(--dl-color-gray-white);
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-radius: var(--dl-radius-radius-radius4);
+  text-decoration: none;
+  background-color: #ffa634;
+}
+.home-icon:hover {
+  fill: #ffa634;
+  border-color: #ffa634;
+  background-color: #ffffff;
+}
+.home-link2 {
+  color: rgb(255, 166, 52);
+}
+.home-container3 {
+  width: 70%;
+  display: flex;
+  z-index: 100;
+  grid-row: 5/6;
+  margin-top: 2px;
+  align-items: flex-start;
+  grid-column: 2/4;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.home-link3 {
+  display: contents;
+}
+.home-icon2 {
+  fill: var(--dl-color-gray-white);
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: #ffa634;
+}
+.home-icon2:hover {
+  fill: #ffa634;
+  border-color: #ffa634;
+  background-color: #ffffff;
+}
+.home-link4 {
+  color: rgb(255, 166, 52);
+}
+.home-container-16 {
+  display: flex;
+  z-index: 100;
+  grid-row: 6/7;
+  align-self: flex-start;
+  grid-column: 2/3;
+  padding-top: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: center;
+}
+.home-haftung-de {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: center;
+}
+.home-haftungsausschluss-de {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  z-index: 100;
+  font-size: 1em;
+  font-family: "Arial";
+}
+.home-text07 {
+  color: var(--dl-color-gray-white);
+  z-index: 100;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.home-haftung-en {
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: center;
+}
+.home-disclaimer {
+  color: var(--dl-color-gray-white);
+  z-index: 100;
+  font-size: 1em;
+  align-self: flex-start;
+  font-family: "Arial";
+}
+.home-text20 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  z-index: 100;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.home-image2 {
+  top: 0px;
+  width: 100%;
+  position: absolute;
+  object-fit: contain;
+  transition: 0.3s;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+
+@media(max-width: 1600px) {
+  .home-container1 {
+    grid-template-rows: 100px 200px 350px 50px 50px 500px;
+  }
+  .home-talk-to-me {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+  }
+  .home-text {
+    color: #ffffff;
+  }
+  .home-frage {
+    height: 80px;
+    font-size: 12pt;
+  }
+  .home-antwort {
+    font-size: 12pt;
+  }
+  .home-quellen {
+    font-size: 10pt;
+  }
+  .home-text07 {
+    font-size: 10pt;
+  }
+  .home-text20 {
+    font-size: 10pt;
+  }
+}
+@media(max-width: 1200px) {
+  .home-container1 {
+    grid-template-rows: 100px 200px 350px 50px 50px 600px;
+  }
+  .home-talk-to-me {
+    font-size: 22px;
+  }
+  .home-frage {
+    height: 70px;
+    font-size: 10pt;
+  }
+  .home-antwort {
+    font-size: 10pt;
+  }
+  .home-quellen {
+    font-size: 10pt;
+    font-family: Arial;
+  }
+  .home-text07 {
+    font-size: 8pt;
+  }
+  .home-text20 {
+    font-size: 8pt;
+  }
+}
+@media(max-width: 991px) {
+  .home-container1 {
+    grid-template-rows: 100px 200px 350px 50px 50px 700px;
+  }
+  .home-talk-to-me {
+    font-size: 18px;
+    font-family: Arial;
+  }
+  .home-frage {
+    height: 60px;
+    font-size: 8pt;
+  }
+  .home-antwort {
+    font-size: 8pt;
+  }
+  .home-quellen {
+    font-size: 8pt;
+  }
+}
+@media(max-width: 767px) {
+  .home-container1 {
+    grid-template-rows: 100px 200px 350px 50px 50px 900px;
+  }
+  .home-talk-to-me {
+    font-size: 14px;
+  }
+  .home-frage {
+    height: 40px;
+    font-size: 8pt;
+  }
+  .home-antwort {
+    font-size: 8pt;
+  }
+  .home-quellen {
+    font-display: 8pt;
+  }
+  .home-text07 {
+    font-size: 7pt;
+  }
+  .home-text20 {
+    font-size: 7pt;
+  }
+}
+@media(max-width: 479px) {
+  .home-talk-to-me {
+    font-size: 10px;
+  }
+  .home-frage {
+    font: 6pt;
+    height: 20px;
+  }
+  .home-antwort {
+    font-size: 6pt;
+  }
+  .home-quellen {
+    font-size: 6pt;
+  }
+}
